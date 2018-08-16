@@ -22,14 +22,6 @@ let config = {
     storageBucket: "collex-e1ab3.appspot.com",
     messagingSenderId: "972126320719",
 
-    apiKey: "AIzaSyBZyil-JrhViIeivyyEp6UhWfHL2ReVSCE",
-    authDomain: "collex-e1ab3.firebaseapp.com",
-    databaseURL: "https://collex-e1ab3.firebaseio.com",
-    projectId: "collex-e1ab3",
-    storageBucket: "collex-e1ab3.appspot.com",
-    messagingSenderId: "972126320719"
-
-
 }
 
 let app = Firebase.initializeApp(config);
