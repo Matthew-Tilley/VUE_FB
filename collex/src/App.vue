@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    
-    
+
+    <div v-for="item in items" :key="item.id">
+    {{item.title}}
+    </div>
+
   </div>
+  
 </template>
 
 <script>
