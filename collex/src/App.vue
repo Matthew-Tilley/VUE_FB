@@ -3,7 +3,7 @@
 
     <div v-for="item in items" :key="item.id">
     {{item.title}}
-    {{item.author}}
+    
     </div>
 
   </div>
