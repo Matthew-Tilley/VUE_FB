@@ -5,15 +5,11 @@ import VueFire from 'vuefire'
 import App from './App'
 
 //Vue.config.productionTip = false
-
 Vue.use(VueFire)
-
-console.log("kkkklllluhyiiuyiuy");
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  components: { App },
   template: '<App/>',
-  
+  components: { App }
 })

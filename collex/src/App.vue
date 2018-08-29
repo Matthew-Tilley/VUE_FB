@@ -1,8 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app1">
 
     <div v-for="item in items" :key="item.id">
     {{item.title}}
+    {{item.author}}
     </div>
 
   </div>
@@ -11,7 +12,7 @@
 
 <script>
 //import HelloWorld from './components/HelloWorld'
-import Firebase from 'firebase'
+import Firebase from 'firebase';
 
 let config = {
 
@@ -26,14 +27,14 @@ let config = {
 
 let app = Firebase.initializeApp(config);
 let db = app.database();
-let ietmsRef = db.ref("items");
+let itemsRef = db.ref("items");
 
 export default {
   name: 'App',
 
   firebase: {
     items: itemsRef,
-  }
+  },
   
 
 }
