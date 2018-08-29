@@ -2,7 +2,8 @@
   <div id="app1">
 
     <div v-for="item in items" :key="item.id">
-      <a href="{{item.pageurl}}">
+      
+      <a v-bind:href="item.pageurl">
       <h1>{{item.title}}</h1>
       <h2>{{item.author}}</h2>
       </a>
