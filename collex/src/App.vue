@@ -3,7 +3,7 @@
 
     <div v-for="item in items" :key="item.id">
 
-      <img v-bind:src="imgpath()">
+      <img v-bind:src="imgpath(item)">
       <a v-bind:href="item.pageurl" alt="">
       <h1>{{item.title}}</h1>
       <h2>{{item.author}}</h2>
@@ -40,7 +40,7 @@ export default {
     items: itemsRef,
   },
 
-  method: {
+  methods: {
     imgpath: function(i) {
       return "/static/images/" + i.imgname + ".jpg";
     },
