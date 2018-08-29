@@ -39,6 +39,13 @@ export default {
   firebase: {
     items: itemsRef,
   },
+
+  method: {
+    imgpath: function(i) {
+      return "/static/images/" + item.imgname + ".jpg";
+    },
+
+  }
   
 
 }
