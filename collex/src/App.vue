@@ -42,7 +42,7 @@ export default {
 
   methods: {
     imgpath: function(i) {
-      return "/static/images/" + i.imgname + ".jpg";
+      return "../static/images/" + i.imgname + ".jpg";
     },
 
   }
