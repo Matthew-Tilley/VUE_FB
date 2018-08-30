@@ -60,6 +60,7 @@ export default {
   border-radius: 2px;
   margin: .5em;
   box-shadow: 2px 2px silver;
+  position: relative;
 }
 
 </style>
