@@ -80,6 +80,15 @@ export default {
   font-size: 18pt;
 }
 
+#app div h2 {
+  position: absolute;
+  z-index: 15;
+  margin: 0;
+  top: 0;
+  left: 8px;
+  font-size: 18pt;
+}
+
 </style>
 
 
