@@ -63,6 +63,23 @@ export default {
   position: relative;
 }
 
+#app div img {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#app div h1 {
+  position: absolute;
+  z-index: 15;
+  margin: 0;
+  top: 0;
+  left: 8px;
+  font-size: 18pt;
+}
+
 </style>
 
 
