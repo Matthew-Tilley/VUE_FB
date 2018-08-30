@@ -53,9 +53,6 @@ export default {
 
 <style scoped>
 
-#app {
-  
-}
 
 #app div {
   width: 300px;
