@@ -53,8 +53,8 @@ export default {
 
 <style scoped>
 
-</style>
->
+
+
 #app {
   /* font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -62,5 +62,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px; */
+}
+
+#app div {
+  width: 300px;
+  height: 185px;
+  border: solid 1px gray;
+  border-radius: 2px;
+  margin: .5em;
+  box-shadow: 2px 2px silver;
 }
 </style>
