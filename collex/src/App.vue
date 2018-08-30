@@ -1,5 +1,5 @@
 <template>
-  <div id="app1">
+  <div id="app">
 
     <div v-for="item in items" :key="item.id">
 
@@ -53,7 +53,6 @@ export default {
 
 <style scoped>
 
-
 #app div {
   width: 300px;
   height: 185px;
@@ -62,6 +61,7 @@ export default {
   margin: .5em;
   box-shadow: 2px 2px silver;
 }
+
 </style>
 
 
