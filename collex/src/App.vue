@@ -53,6 +53,13 @@ export default {
 
 <style scoped>
 
+#app {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+}
+
 #app div {
   width: 300px;
   height: 185px;
@@ -84,9 +91,20 @@ export default {
   position: absolute;
   z-index: 15;
   margin: 0;
-  top: 0;
+  top: 30px;
   left: 8px;
-  font-size: 18pt;
+  font-size: 14pt;
+}
+
+#app div a {
+  display: block;
+  position: absolute; 
+  z-index: 20;
+  background: linear-gradient(black, transparent);
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-shadow: 2px black;
 }
 
 </style>
