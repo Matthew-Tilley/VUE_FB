@@ -16,6 +16,9 @@
 
 <script>
 //Grab the number from the end of the query string.
+let catid = window.location.href;
+alert(catid);
+
 import Firebase from 'firebase';
 
 let config = {
