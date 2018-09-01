@@ -40,7 +40,9 @@ export default {
   name: 'App',
 
   firebase: {
-    items: itemsRef,
+    //items: itemsRef,
+
+    
   },
 
   methods: {
