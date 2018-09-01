@@ -16,8 +16,8 @@
 
 <script>
 //Grab the number from the end of the query string.
-let catid = window.location.href.split("=").pop();
-alert(catid);
+let catid = parseInt( window.location.href.split("=").pop() );
+
 
 import Firebase from 'firebase';
 
