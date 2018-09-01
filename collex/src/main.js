@@ -8,7 +8,7 @@ import App from './App'
 
 Vue.use(VueFire)
 
-console.log("kkkklllluhyiiuyiuy");
+
 
 /* eslint-disable no-new */
 new Vue({
