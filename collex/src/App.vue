@@ -41,8 +41,8 @@ export default {
 
   firebase: {
     //items: itemsRef,
+    items: itemsRef.orderByChild("categoryid").equalTo("catid")
 
-    
   },
 
   methods: {
