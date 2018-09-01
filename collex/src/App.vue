@@ -15,7 +15,7 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld'
+//Grab the number from the end of the query string.
 import Firebase from 'firebase';
 
 let config = {
