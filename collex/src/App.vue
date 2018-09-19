@@ -46,9 +46,9 @@ export default {
   },
 
   methods: {
-    /* imgpath: function(i) {
+    imgpath: function(i) {
       return "../static/images/" + i.imgname + ".jpg";
-    }, */
+    },
 
   }
   
